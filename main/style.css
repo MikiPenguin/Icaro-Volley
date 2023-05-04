@@ -1,0 +1,13 @@
+/* Stile per il testo del titolo e del piè di pagina */
+h1, footer p {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Stile per il menu di navigazione */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style
