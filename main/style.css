@@ -13,7 +13,10 @@ nav ul {
   font-family: Roboto, sans-serif;
   list-style
 
-/* Body */  
+/* Stile per il corpo della pagina */
 body {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
 }
