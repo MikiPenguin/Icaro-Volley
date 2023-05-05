@@ -1,17 +1,18 @@
-/* Stile per il testo del titolo e del piè di pagina */
-h1 {
+/* Stile per il titolo nell'header */
+header h1 {
   font-family: Roboto, sans-serif;
   font-size: 40px;
   color: #333;
   text-align: center;
 }
+
+/* Stile per il testo nel footer */
 footer p {
   font-family: Roboto, sans-serif;
-  font-size: 10px;
-  color: #333;
+  font-size: 16px;
+  color: #666;
   text-align: center;
 }
-
 
 /* Stile per il menu di navigazione */
 nav ul {
