@@ -1,7 +1,7 @@
 /* Stile per il testo del titolo e del piè di pagina */
 h1, footer p {
   font-family: Roboto, sans-serif;
-  font-size: 24px;
+  font-size: 48px;
   color: #333;
   text-align: center;
 }
@@ -10,10 +10,10 @@ h1, footer p {
 nav ul {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   list-style
 
 /* Body */  
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
