@@ -1,7 +1,7 @@
 /* Stile per il testo del titolo e del piè di pagina */
 h1, footer p {
   font-family: Roboto, sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   color: #333;
   text-align: center;
 }
