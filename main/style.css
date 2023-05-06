@@ -63,10 +63,6 @@ grid-gap: 30px;
 }
 
 
-.private {
-  color: black;
-}
-
 
 section {
 background-color: #fff;
@@ -85,3 +81,10 @@ margin-bottom: 20px;
 section p {
 font-family: "Montserrat", sans-serif;
 font-size: 18px;
+
+  
+  
+.masked {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
