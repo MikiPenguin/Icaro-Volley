@@ -1,3 +1,9 @@
+.intro {
+  text-align: center;
+  margin: auto;
+  max-width: 600px; /* opzionale, per limitare la larghezza del blocco */
+}
+
 a.button-pal {
     position: absolute;
     top: 0;
