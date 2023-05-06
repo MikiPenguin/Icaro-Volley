@@ -84,7 +84,20 @@ font-size: 18px;
 
   
   
-.masked {
+  .private {
   color: transparent;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: black;
+  display: inline-block;
+  position: relative;
 }
+
+.private .mask {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.6em;
+  height: 1em;
+  background-color: white;
+}
+
