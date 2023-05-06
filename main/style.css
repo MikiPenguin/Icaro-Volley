@@ -1,3 +1,15 @@
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+
 /* Stile per il testo del titolo e del piè di pagina */
 h1 {
 font-family: Roboto, sans-serif;
