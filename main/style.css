@@ -62,6 +62,12 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap: 30px;
 }
 
+
+.private {
+  color: black;
+}
+
+
 section {
 background-color: #fff;
 border-radius: 5px;
