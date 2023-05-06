@@ -97,13 +97,17 @@ grid-gap: 30px;
 }
 
 
-
 section {
-background-color: #fff;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-padding: 30px;
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
 
 section h2 {
 font-family: "Roboto", sans-serif;
