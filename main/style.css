@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Recoleta", sans-serif;
     background-color: #5C5C5C;
     color: #333;
     margin: 0;
@@ -18,7 +18,7 @@ body {
 
 /* Stile per l'header */
 header {
-    background-color: #696969;
+    background-color: #A44882;
     padding: 20px;
     text-align: center;
 }
@@ -26,7 +26,7 @@ header {
 h1 {
     font-family: Recoleta, sans-serif;
     font-size: 60px;
-    color: #FF76EA;
+    color: #A44882;
     text-align: center;
     margin-top: 0;
 }
@@ -67,7 +67,7 @@ nav button:hover {
 h1 {
     font-family: Roboto, sans-serif;
     font-size: 60px;
-    color: #FF76EA;
+    color: #A44882;
     text-align: center;
     margin-top: 0;
 }
@@ -95,7 +95,7 @@ section {
     width: auto;
     margin: 20px;
     padding: 20px;
-    background-color: #B8B8B8;
+    background-color: #C8C8C8;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -103,12 +103,12 @@ section {
 section h2 {
     font-family: "Roboto", sans-serif;
     font-size: 28px;
-    color: #FF76EA;
+    color: #A44882;
     margin-bottom: 20px;
 }
 
 section p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
 }
 
