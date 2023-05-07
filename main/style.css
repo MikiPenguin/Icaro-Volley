@@ -1,101 +1,80 @@
+/* Stile per l'introduzione della home page */
 .intro {
   text-align: center;
   padding: 20px 0;
+  background-color: #f2f2f2;
 }
 
-
-a.button-pal {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
+.intro img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
-
-a.button-squ {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
-a.button-con {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
 
 /* Stile per il testo del titolo e del piè di pagina */
 h1 {
-font-family: Roboto, sans-serif;
-font-size: 60px;
-color: #004d40;
-text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 60px;
+  color: #e91e63;
+  text-align: center;
 }
 
 footer p {
-font-family: Roboto, sans-serif;
-font-size: 14px;
-color: #777;
-text-align: center;
-margin-top: 30px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* Stile per il menu di navigazione */
 nav {
-background-color: #004d40;
-text-align: center;
+  background-color: #e91e63;
+  text-align: center;
 }
 
 nav ul {
-margin: 0;
-padding: 0;
-list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 nav li {
-display: inline-block;
-margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 nav button {
-font-family: Roboto, sans-serif;
-font-size: 20px;
-color: #fff;
-background-color: transparent;
-border: none;
-outline: none;
-cursor: pointer;
-transition: all 0.3s ease;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 nav button:hover {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Body */
 body {
-font-family: "Montserrat", sans-serif;
-background-color: #f0f0f0;
-color: #333;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 main {
-max-width: 1200px;
-margin: 0 auto;
-padding: 50px 20px;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
 }
-
 
 section {
   display: inline-block;
@@ -107,24 +86,21 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
 section h2 {
-font-family: "Roboto", sans-serif;
-font-size: 28px;
-color: #004d40;
-margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: #004d40;
+  margin-bottom: 20px;
 }
 
 section p {
-font-family: "Montserrat", sans-serif;
-font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
 
-  
-  
-  .private {
+.private {
   color: transparent;
-  background-color: black;
+  background-color: #777;
   display: inline-block;
   position: relative;
 }
@@ -138,4 +114,3 @@ font-size: 18px;
   height: 1em;
   background-color: white;
 }
-
