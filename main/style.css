@@ -126,10 +126,11 @@ img.logo {
 
 /* Stile per i bottoni */
 a.button-pal, a.button-squ, a.button-con {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
 }
