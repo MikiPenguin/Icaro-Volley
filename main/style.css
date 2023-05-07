@@ -1,116 +1,135 @@
-/* Stile per l'introduzione della home page */
-.intro {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #f2f2f2;
+/* Impostazioni generali */
+html {
+    box-sizing: border-box;
 }
 
-.intro img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
-/* Stile per il testo del titolo e del piè di pagina */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+/* Stile per l'header */
+header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
+}
+
 h1 {
-  font-family: Roboto, sans-serif;
-  font-size: 60px;
-  color: #e91e63;
-  text-align: center;
-}
-
-footer p {
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  color: #777;
-  text-align: center;
-  margin-top: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
 }
 
 /* Stile per il menu di navigazione */
 nav {
-  background-color: #e91e63;
-  text-align: center;
+    background-color: #004d40;
+    text-align: center;
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 nav li {
-  display: inline-block;
-  margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav button {
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  color: #fff;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 nav button:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-/* Body */
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+/* Stile per il testo del titolo e del piè di pagina */
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
 }
 
+footer p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Stile per il contenuto principale */
 main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
 }
 
 section {
-  display: inline-block;
-  width: auto;
-  margin: 20px;
-  padding: 20px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 28px;
-  color: #004d40;
-  margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: #004d40;
+    margin-bottom: 20px;
 }
 
 section p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
 }
 
-.private {
-  color: transparent;
-  background-color: #777;
-  display: inline-block;
-  position: relative;
+.intro {
+    text-align: center;
+    padding: 20px 0;
 }
 
-.private .mask {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0.6em;
-  height: 1em;
-  background-color: white;
+img.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Stile per i bottoni */
+a.button-pal, a.button-squ, a.button-con {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
 }
