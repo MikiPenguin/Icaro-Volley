@@ -129,7 +129,7 @@ img.logo {
     position: relative;
 }
 
-a.button-pal, a.button-squ, a.button-con {
+button-pal a, button-squ a, button-con a {
   position: absolute;
   top: 0;
   left: 0;
@@ -137,5 +137,6 @@ a.button-pal, a.button-squ, a.button-con {
   height: 100%;
   opacity: 0;
   z-index: 1;
+  transform: scale(1.1);
 }
 
