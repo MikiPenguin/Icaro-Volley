@@ -33,7 +33,7 @@ h1 {
 
 /* Stile per il menu di navigazione */
 nav {
-    background-color: #004d40;
+    background-color: #777;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ section {
 section h2 {
     font-family: "Roboto", sans-serif;
     font-size: 28px;
-    color: #004d40;
+    color: #777;
     margin-bottom: 20px;
 }
 
