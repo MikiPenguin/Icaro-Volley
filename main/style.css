@@ -11,14 +11,14 @@ html {
 
 body {
     font-family: "Recoleta", sans-serif;
-    background-color: #A44882;
+    background-color: #696969;
     color: #333;
     margin: 0;
 }
 
 /* Stile per l'header */
 header {
-    background-color: #696969;
+    background-color: #595959;
     padding: 20px;
     text-align: center;
 }
@@ -52,7 +52,7 @@ nav button {
     font-family: Roboto, sans-serif;
     font-size: 20px;
     color: #fff;
-    background-color: transparent;
+    background-color: #A44882;  /*rosa check*/
     border: none;
     outline: none;
     cursor: pointer;
@@ -120,7 +120,7 @@ section p {
 img.logo {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 120%;
     height: auto;
 }
 
