@@ -122,6 +122,8 @@ img.logo {
     margin: 0 auto;
     max-width: 120%;
     height: auto;
+    margin-top: 10px;
+
 }
 
 /* Stile per i bottoni */
