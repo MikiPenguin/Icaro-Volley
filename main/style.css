@@ -147,7 +147,34 @@ img.logo {
   transform: scale(1.2);
 }
 
-.submenu {
-  display: none;
+.menu-wrapper {
+  position: relative;
+  display: inline-block;
 }
 
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  display: none;
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu li a:hover {
+  background-color: #f2f2f2;
+}
