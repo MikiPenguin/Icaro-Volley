@@ -65,35 +65,7 @@ nav button:hover {
 
 
 /*------------------(prova) stile menù a comparsa------------------*/
-nav ul li {
-  float: left;
-  position: relative;
-}
 
-nav ul li a {
-  display: block;
-  padding: 10px 20px;
-}
-
-nav ul li ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  visibility: hidden;
-}
-
-nav ul li:hover ul {
-  visibility: visible;
-}
-
-nav ul li ul li {
-  float: none;
-}
-
-nav ul li ul a {
-  white-space: nowrap;
-}
 /*------------------------------------------------------------*/
 
 
