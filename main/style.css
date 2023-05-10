@@ -31,15 +31,19 @@ h1 {
     margin-top: 0;
 }
 
-/* Stile per il menu di navigazione */
-/* Stile generale della barra di navigazione */
+/* Stile della barra di navigazione */
 nav {
-  background-color: #ff69b4; /* rosa */
+  background-color: #FF6B6B; /* rosa */
+  display: flex;
+  justify-content: space-between; /* spazio tra i link */
+  align-items: center;
+  padding: 20px;
 }
 
-/* Stile dei link nella barra di navigazione */
+/* Stile delle scritte nella barra di navigazione */
 nav a {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -47,7 +51,7 @@ nav a {
   transition: all 0.2s ease-in-out; /* animazione hover */
 }
 
-/* Stile dei link nella barra di navigazione quando passi sopra con il mouse */
+/* Stile delle scritte nella barra di navigazione quando passi sopra con il mouse */
 nav a:hover {
   transform: scale(1.2); /* scala del 20% */
 }
