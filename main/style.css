@@ -172,28 +172,24 @@ img.logo {
 }
 
 .submenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-  display: none;
-  background-color: #f9f9f9;
-  padding: 0;
-  margin: 0;
-  border: 1px solid #ccc;
+  list-style: none; /* rimuove i punti elenco dalla lista */
+  display: flex; /* imposta il display a "flex" per allineare gli elementi in orizzontale */
+  margin: 0; /* rimuove il margine predefinito della lista */
+  padding: 0; /* rimuove il padding predefinito della lista */
 }
 
 .submenu li {
-  display: block;
+  margin-right: 20px; /* spazio tra i singoli elementi della lista */
+}
+
+.submenu li:last-child {
+  margin-right: 0; /* rimuove lo spazio a destra dall'ultimo elemento della lista */
 }
 
 .submenu li a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-.submenu li a:hover {
-  background-color: #f2f2f2;
+  color: #fff; /* colore del testo */
+  display: block; /* rende il link un blocco per occupare l'intero spazio disponibile */
+  padding: 10px; /* spazio interno del link */
+  text-decoration: none; /* rimuove il sottolineato del testo */
+  font-weight: bold; /* imposta il testo in grassetto */
 }
