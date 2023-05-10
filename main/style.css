@@ -32,44 +32,26 @@ h1 {
 }
 
 /* Stile per il menu di navigazione */
+/* Stile generale della barra di navigazione */
 nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px 0;
+  background-color: #ff69b4; /* rosa */
 }
 
-nav li {
-  margin-right: 20px;
-}
-
+/* Stile dei link nella barra di navigazione */
 nav a {
+  font-family: Roboto;
+  color: white;
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 16px;
+  padding: 10px;
+  display: inline-block;
+  transition: all 0.2s ease-in-out; /* animazione hover */
 }
 
-nav ul {
-  list-style: none;
+/* Stile dei link nella barra di navigazione quando passi sopra con il mouse */
+nav a:hover {
+  transform: scale(1.2); /* scala del 20% */
 }
 
-nav button {
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    color: #fff;
-    background-color: #A44882;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-nav button:hover {
-    transform: scale(1.1);
-}
 
 /* Stile per il testo del titolo e del piè di pagina */
 h1 {
@@ -132,64 +114,4 @@ img.logo {
     height: auto;
     margin-top: 300px;
 
-}
-
-/* Stile per i bottoni */
-
-.button-pal, .button-squ, .button-con {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  background-color: #A44882;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.button-pal:hover, .button-squ:hover, .button-con:hover {
-  background-color: #944176;
-  transform: scale(1.2);
-}
-
-/*stile classe menu
-.menu {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-container {
-  background-color: #fff;
-  width: 100%;
-}*/
-
-.menu-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.submenu {
-  list-style: none; /* rimuove i punti elenco dalla lista */
-  display: flex; /* imposta il display a "flex" per allineare gli elementi in orizzontale */
-  margin: 0; /* rimuove il margine predefinito della lista */
-  padding: 0; /* rimuove il padding predefinito della lista */
-}
-
-.submenu li {
-  margin-right: 20px; /* spazio tra i singoli elementi della lista */
-}
-
-.submenu li:last-child {
-  margin-right: 0; /* rimuove lo spazio a destra dall'ultimo elemento della lista */
-}
-
-.submenu li a {
-  color: #fff; /* colore del testo */
-  display: block; /* rende il link un blocco per occupare l'intero spazio disponibile */
-  padding: 10px; /* spazio interno del link */
-  text-decoration: none; /* rimuove il sottolineato del testo */
-  font-weight: bold; /* imposta il testo in grassetto */
 }
