@@ -31,7 +31,7 @@ h1 {
     margin-top: 0;
 }
 
-/* Stile per il menu di navigazione */
+/* Stile per il menu di navigazione 
 nav {
   display: flex;
   justify-content: flex-end;
@@ -59,6 +59,9 @@ nav a {
   color: #333;
   font-weight: bold;
   font-size: 16px;
+}*/
+nav ul {
+  list-style: none;
 }
 
 nav button {
@@ -160,7 +163,7 @@ img.logo {
   transform: scale(1.2);
 }
 
-/*stile classe menu*/
+/*stile classe menu
 .menu {
   display: flex;
   justify-content: center;
@@ -174,7 +177,7 @@ img.logo {
 .menu-wrapper {
   position: relative;
   display: inline-block;
-}
+}*/
 
 .submenu {
   position: absolute;
@@ -182,21 +185,10 @@ img.logo {
   left: 0;
   z-index: 1;
   display: none;
-  min-width: 120px;
-  padding: 10px;
-  background-color: #fff;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.submenu a {
-  display: block;
-  padding: 5px;
-  font-size: 14px;
-  color: #333;
-}
-
-.submenu a:hover {
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
 }
 
 .submenu li {
