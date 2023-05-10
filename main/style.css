@@ -33,7 +33,7 @@ h1 {
 
 /* Stile della barra di navigazione */
 nav {
-  background-color: #FF6B6B; /* rosa */
+  background-color: #A44882; /* rosa */
   display: flex;
   justify-content: space-between; /* spazio tra i link */
   align-items: center;
@@ -42,7 +42,7 @@ nav {
 
 /* Stile delle scritte nella barra di navigazione */
 nav a {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   color: white;
   text-decoration: none;
