@@ -31,31 +31,37 @@ h1 {
     margin-top: 0;
 }
 
-/* Stile della barra di navigazione */
+/* Stile per il menu di navigazione */
 nav {
-  background-color: #A44882; /* rosa */
-  display: flex;
-  justify-content: space-between; /* spazio tra i link */
-  align-items: center;
-  padding: 20px;
+    background-color: #A44882;
+    text-align: center;
 }
 
-/* Stile delle scritte nella barra di navigazione */
-nav a {
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  display: inline-block;
-  transition: all 0.2s ease-in-out; /* animazione hover */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-/* Stile delle scritte nella barra di navigazione quando passi sopra con il mouse */
-nav a:hover {
-  transform: scale(1.2); /* scala del 20% */
+nav li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
+nav button {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    transform: scale(1.1);
+}
 
 /* Stile per il testo del titolo e del piè di pagina */
 h1 {
@@ -116,6 +122,25 @@ img.logo {
     margin: 0 auto;
     max-width: 120%;
     height: auto;
-    margin-top: 300px;
+}
 
+/* Stile per i bottoni */
+
+.button-pal, .button-squ, .button-con {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #A44882;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-pal:hover, .button-squ:hover, .button-con:hover {
+  background-color: #944176;
+  transform: scale(1.2);
 }
