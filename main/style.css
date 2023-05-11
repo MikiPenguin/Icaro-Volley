@@ -97,9 +97,15 @@ main {
     grid-gap: 30px;
 }
 
-h2 {
-    color: #A44882;
+main h2 {
+    color: #B44882;
+    text-align: left;
     display: inline;
+}
+
+main p {
+    color: white;
+    text-align: left;
 }
 
 section {
