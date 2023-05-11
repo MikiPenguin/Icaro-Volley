@@ -100,7 +100,7 @@ main {
 main h2 {
     color: #B44882;
     text-align: left;
-    display: inline;
+    display: block;
 }
 
 main p {
