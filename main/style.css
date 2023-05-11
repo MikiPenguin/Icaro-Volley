@@ -100,12 +100,14 @@ main {
 main h2 {
     color: #B44882;
     text-align: left;
-    display: block;
+    display: inline-block;
 }
 
 main p {
     color: white;
     text-align: left;
+    display: inline-block;
+
 }
 
 section {
