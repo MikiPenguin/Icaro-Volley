@@ -137,7 +137,18 @@ main div {
   margin-bottom: 30px;
 }
 
+main div h2 {
+    color: #C44882;
+    text-align: left;
+    display: block;
+}
 
+main div p {
+    color: white;
+    text-align: left;
+    display: block;
+
+}
 
 
 
