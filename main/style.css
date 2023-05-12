@@ -141,9 +141,16 @@ main div {
 
 
 div h2 {
-    color: #C44882;
+    color: #A44882;
     text-align: left;
     display: block;
+}
+
+.p-heading {
+    color: #A44882;
+    text-align: left;
+    display: block;
+    font-size: 24px;
 }
 
 div p {
