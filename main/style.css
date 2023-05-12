@@ -98,15 +98,15 @@ main {
 }
 
 main h2 {
-    color: #B44882;
+    color: #C44882;
     text-align: left;
-    display: inline-block;
+    display: block;
 }
 
 main p {
     color: white;
     text-align: left;
-    display: inline-block;
+    display: block;
 
 }
 
