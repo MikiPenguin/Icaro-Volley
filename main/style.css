@@ -148,9 +148,10 @@ div h2 {
 
 .p-heading {
     color: #A44882;
+    font-size: 24px;
+    font-weight: bold;
     text-align: left;
     display: block;
-    font-size: 24px;
 }
 
 div p {
@@ -158,7 +159,14 @@ div p {
     text-align: center;
     color: white;
     display: block;
+}
 
+p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    display: block;
 }
 
 
