@@ -132,10 +132,13 @@ section p {
     font-size: 18px;
 }
 
+/* Stile per i div all'interno del main */
 main div {
-  display: block;
-  margin-bottom: 30px;
+    display: block;
+    clear: both;
+    margin-bottom: 30px;
 }
+
 
 div h2 {
     color: #C44882;
