@@ -137,13 +137,13 @@ main div {
   margin-bottom: 30px;
 }
 
-main div h2 {
+div h2 {
     color: #C44882;
     text-align: left;
     display: block;
 }
 
-main div p {
+div p {
     font-size: 24px;
     text-align: center;
     color: white;
