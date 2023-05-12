@@ -134,8 +134,9 @@ section p {
 
 div {
   display: block;
-  clear: both;
+  margin-bottom: 30px;
 }
+
 
 
 
