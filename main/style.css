@@ -130,6 +130,7 @@ section h2 {
 section p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    text-align: left;
 }
 
 /* Stile per i div all'interno del main */
