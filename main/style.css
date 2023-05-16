@@ -204,6 +204,20 @@ img.logo {
   cursor: pointer;
 }
 
+.button-med {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #A44882;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
 .button-small {
   display: inline-block;
   padding: 10px 20px;
