@@ -232,7 +232,7 @@ img.logo {
   cursor: pointer;
 }
 
-.button-pal:hover, .button-squ:hover, .button-con:hover {
+.button-big:hover, .button-med:hover, .button-small:hover {
   background-color: #944176;
   transform: scale(1.2);
 }
