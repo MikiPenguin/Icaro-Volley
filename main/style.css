@@ -236,3 +236,21 @@ img.logo {
   background-color: #944176;
   transform: scale(1.2);
 }
+
+/*---------------stile per i link social-----------------*/
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
