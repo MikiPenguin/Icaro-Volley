@@ -249,6 +249,12 @@ img.logo {
   align-items: center;
 }
 
+.social a {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
 .social img:hover {
   transform: scale(1.2);
 }
