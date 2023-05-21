@@ -17,11 +17,27 @@ body {
 }
 
 /* Stile per l'header */
-header {
+/*header {
     background-color: #595959;
     padding: 20px;
     text-align: center;
+}*/
+header {
+  background-image: url('../img/wp1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
+
+header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 h1 {
     font-family: Recoleta, sans-serif;
