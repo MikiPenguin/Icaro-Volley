@@ -23,15 +23,15 @@ body {
     text-align: center;
 }*/
 header {
-  background-color: #595959;
-  padding: 20px;
-  text-align: center;
   background-image: url('../img/wp1.png');
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  padding-bottom: 100px; /* Aggiungi questa riga */
+  z-index: -1; /* Aggiungi questa riga */
 }
+
 
 
 header img {
