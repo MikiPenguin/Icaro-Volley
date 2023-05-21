@@ -23,6 +23,9 @@ body {
     text-align: center;
 }*/
 header {
+  background-color: #595959;
+  padding: 20px;
+  text-align: center;
   background-image: url('../img/wp1.png');
   background-size: 100% auto;
   background-position: center;
