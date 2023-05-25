@@ -140,6 +140,12 @@ section p {
     text-align: left;
 }
 
+section a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
 /* Stile per i div all'interno del main */
 main div {
     display: block;
