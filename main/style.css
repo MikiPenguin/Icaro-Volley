@@ -52,6 +52,7 @@ nav li {
     display: inline-block;
     font-size: 40px;
     margin: 0 10px;
+    line-height: 1; /* Aggiungi questa riga */
 }
 
 nav button {
