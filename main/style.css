@@ -11,14 +11,14 @@ html {
 
 body {
     font-family: "Recoleta", sans-serif;
-    background-color: #F4F4F4;/*696969*/
+    background-color: #696969;/*F4F4F4*/
     color: #333;
     margin: 0;
 }
 
 /* Stile per l'header */
 header {
-    background-color: #F5F5F5;/*696969*/
+    background-color: #595959;/*F5F5F5*/
     padding: 20px;
     text-align: center;
 }
