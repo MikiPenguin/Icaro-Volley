@@ -292,11 +292,11 @@ img.logo {
 
 /*----------------roba aggiunta da chicco----------------*/
 .grid-container {
-    display: grid;
+    display: incline-block;
     row-gap: 5px;
     column-gap: 0px;
     grid-template-columns: auto auto auto auto;
-    background-color: #2196F3;
+    background-color: #A44882;
     padding: 10px;
     border-radius: 10px;
 }
