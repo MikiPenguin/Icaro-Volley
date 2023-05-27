@@ -299,6 +299,8 @@ img.logo {
     background-color: #A44882;
     padding: 10px;
     border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
 }
 
 
