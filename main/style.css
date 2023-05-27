@@ -314,7 +314,7 @@ img.logo {
     justify-content: center;
     flex-direction: column;
     text-align: center; 
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 /* Stile per la prima colonna */
