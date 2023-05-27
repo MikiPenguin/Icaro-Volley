@@ -310,7 +310,7 @@ img.logo {
     /*border: 1px solid rgba(0, 0, 0, 0.8);*/
     padding: 10px;
     font-size: 20px;
-    font-color: black;
+    font-color: #000000;
     justify-content: center;
     flex-direction: column;
     text-align: center; 
