@@ -314,5 +314,16 @@ img.logo {
     justify-content: center;
     flex-direction: column;
     text-align: center; 
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 0px 0px 0px 0px;
 }
+
+/* Stile per la prima colonna */
+.grid-item:fc {
+  border-radius: 40px 0 0 40px;
+}
+
+/* Stile per la quinta colonna */
+.grid-item:nc {
+  border-radius: 0 40px 40px 0;
+}
+
