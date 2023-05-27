@@ -319,11 +319,33 @@ img.logo {
 
 /* Stile per la prima colonna */
 .grid-item:fc {
-  border-radius: 40px 0 0 40px;
+    display: flex;
+    background-color: white;
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-color: #000000;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+    border-radius: 40px 0 0 40px;
 }
 
 /* Stile per la quinta colonna */
 .grid-item:nc {
-  border-radius: 0 40px 40px 0;
+    display: flex;
+    background-color: white;
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-color: #000000;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; 
+    border-radius: 0 40px 40px 0;
 }
 
