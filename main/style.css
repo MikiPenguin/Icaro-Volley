@@ -318,7 +318,7 @@ img.logo {
 }
 
 /* Stile per la prima colonna */
-.grid-item:first-child {
+.grid-item:nth-child(n) {
   border-radius: 40px 5px 5px 40px;
 }
 
