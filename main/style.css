@@ -292,7 +292,7 @@ img.logo {
 
 /*----------------roba aggiunta da chicco----------------*/
 .grid-container {
-    display: incline-block;
+    display: grid;
     row-gap: 5px;
     column-gap: 0px;
     grid-template-columns: auto auto auto auto;
@@ -304,10 +304,11 @@ img.logo {
 
 .grid-item {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     /*border: 1px solid rgba(0, 0, 0, 0.8);*/
     padding: 10px;
     font-size: 20px;
+    font-color: black;
     justify-content: center;
     flex-direction: column;
     text-align: center; 
