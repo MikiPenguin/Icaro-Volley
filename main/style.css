@@ -323,6 +323,6 @@ img.logo {
 }
 
 /* Stile per la quinta colonna */
-.grid-item:nth-child(5) {
+.grid-item:nth-child(5n) {
   border-radius: 5px 40px 40px 5px;
 }
