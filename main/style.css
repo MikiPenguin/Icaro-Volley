@@ -318,34 +318,11 @@ img.logo {
 }
 
 /* Stile per la prima colonna */
-.grid-item:fc {
-    display: flex;
-    background-color: white;
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-    padding: 10px;
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-color: #000000;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; 
-    border-radius: 40px 0 0 40px;
+.grid-item:first-child {
+  border-radius: 40px 5px 5px 40px;
 }
 
 /* Stile per la quinta colonna */
-.grid-item:nc {
-    display: flex;
-    background-color: white;
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-    padding: 10px;
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-color: #000000;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; 
-    border-radius: 0 40px 40px 0;
+.grid-item:nth-child(5) {
+  border-radius: 5px 40px 40px 5px;
 }
-
