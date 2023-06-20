@@ -294,6 +294,15 @@ img.logo {
   align-items: center;
 }
 
+.img-small {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .social a {
   display: inline-block;
   margin: 0 10px;
