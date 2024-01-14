@@ -113,8 +113,8 @@ main p {
 section {
     display: inline-block;
     width: auto;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     background-color: #C8C8C8;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
