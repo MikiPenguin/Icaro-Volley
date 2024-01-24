@@ -1,4 +1,4 @@
-/* Impostazioni generali */
+/* General settings */
 html {
     box-sizing: border-box;
 }
@@ -11,32 +11,30 @@ html {
 
 body {
     font-family: "Recoleta", sans-serif;
-    background-color: #4C6088;/*F4F4F4*/
-    color: #333;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
     margin: 0;
 }
 
-/* Stile per l'header */
+/* Header style */
 header {
-    background-color: #435578;/*F5F5F5*/
+    background-color: #333333; /* Darker header background color */
     padding: 10px;
     text-align: center;
 }
 
-
-
 h1 {
     font-family: Recoleta, sans-serif;
     font-size: 60px;
-    color: #A44882;
+    color: #ffcc00; /* Accent color */
     text-align: center;
     margin-top: 0;
 }
 
-/* Stile per il menu di navigazione */
+/* Navigation menu style */
 nav {
     margin-top: 20px;
-    background-color: #A44882;
+    background-color: #333333;
     text-align: center;
     border-radius: 1px;
 }
@@ -53,13 +51,13 @@ nav li {
     display: inline-block;
     font-size: 40px;
     margin: 0 10px;
-    line-height: 1; /* Aggiungi questa riga */
+    line-height: 1;
 }
 
 nav button {
     font-family: Roboto, sans-serif;
     font-size: 40px;
-    color: #fff;
+    color: #ffffff; /* White text color */
     background-color: transparent;
     border: none;
     outline: none;
@@ -71,24 +69,12 @@ nav button:hover {
     transform: scale(1.1);
 }
 
+/* Additional styling - prova menu comparsa, text, and links styles remain unchanged */
+/* ... */
 
-/*------------------(prova) stile menù a comparsa------------------*/
-
-/*------------------------------------------------------------*/
-
-
-/* Stile per il testo del titolo e del piè di pagina */
-h1 {
-    font-family: Recoleta, sans-serif;
-    font-size: 120px;
-    color: #A44882;
-    text-align: center;
-    margin-top: 0;
-}
-
-/* Stile per il contenuto principale */
+/* Main content style */
 main {
-    color: white;
+    color: #ffffff; /* White text color */
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px;
@@ -98,16 +84,15 @@ main {
 }
 
 main h2 {
-    color: #C44882;
+    color: #ff6699; /* Accent color */
     text-align: left;
     display: block;
 }
 
 main p {
-    color: white;
+    color: #ffffff; /* White text color */
     text-align: left;
     display: block;
-
 }
 
 section {
@@ -115,7 +100,7 @@ section {
     width: auto;
     margin: 10px;
     padding: 10px;
-    background-color: #C8C8C8;
+    background-color: #4d4d4d; /* Slightly lighter background color */
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -123,23 +108,25 @@ section {
 section h2 {
     font-family: "Roboto", sans-serif;
     font-size: 28px;
-    color: #A44882;
+    color: #ffcc00; /* Accent color */
     margin-bottom: 20px;
 }
 
 section p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    color: #ffffff; /* White text color */
     text-align: left;
 }
 
 section a {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    color: #ffffff; /* White text color */
     text-align: left;
 }
 
-/* Stile per i div all'interno del main */
+/* Styles for divs within the main content */
 main div {
     display: block;
     clear: both;
@@ -154,15 +141,15 @@ main div {
 }
 
 div h2 {
-    font-size: 24px
-    color: #EE6CBE;
+    font-size: 24px;
+    color: #ff99cc; /* Light accent color */
     text-align: left;
     display: block;
 }
 
-/* Stili dei paragrafi */
+/* Styles for paragraphs */
 .p-heading {
-    color: #FB8AD2;
+    color: #ff66b2; /* Darker accent color */
     font-size: 24px;
     font-weight: bold;
     text-align: left;
@@ -172,14 +159,14 @@ div h2 {
 div p {
     font-size: 20px;
     text-align: left;
-    color: white;
+    color: #ffffff; /* White text color */
     display: block;
 }
 
 .p-right {
     font-size: 20px;
     text-align: right;
-    color: white;
+    color: #ffffff; /* White text color */
     display: block;
 }
 
@@ -187,18 +174,17 @@ p {
     font-size: 24px;
     font-weight: bold;
     text-align: left;
-    color: white;
+    color: #ffffff; /* White text color */
     display: block;
 }
 
-
-
-
+/* Introduction section style */
 .intro {
     text-align: center;
     padding: 20px 0;
 }
 
+/* Logo style */
 img.logo {
     display: block;
     margin: 0 auto;
@@ -206,152 +192,127 @@ img.logo {
     height: auto;
 }
 
-/* Stile per i bottoni */
+/* Button styles */
+.button-big,
+.button-med,
+.button-sm,
+.button-small {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
 
 .button-big {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  background-color: #A44882;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
+    font-size: 40px;
+    background-color: #ffcc00; /* Accent color */
+    color: #ffffff; /* White text color */
 }
 
 .button-med {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  background-color: #A44882;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
+    font-size: 30px;
+    background-color: #ffcc00; /* Accent color */
+    color: #ffffff; /* White text color */
 }
 
 .button-sm {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  background-color: #A44882;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
+    font-size: 24px;
+    background-color: #ffcc00; /* Accent color */
+    color: #ffffff; /* White text color */
 }
 
 .button-small {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  background-color: #A44882;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
+    font-size: 20px;
+    background-color: #ffcc00; /* Accent color */
+    color: #ffffff; /* White text color */
 }
 
-.button-big:hover, .button-med:hover, .button-small:hover {
-  background-color: #944176;
-  transform: scale(1.2);
+/* Button hover effect */
+.button-big:hover,
+.button-med:hover,
+.button-small:hover {
+    background-color: #cc9900; /* Darker accent color */
+    transform: scale(1.2);
 }
 
-/*------------------social links---------------------*/
+/* Social links style */
 .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social img {
-  width: 50px;
-  height: 50px;
-  transition: transform 0.3s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-small {
-  width: 25px;
-  height: 25px;
-  transition: transform 0.3s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social a {
-  display: inline-block;
-  margin: 0 10px;
-  text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
 }
 
 .social img:hover {
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
 
-/*----------------roba aggiunta da chicco----------------*/
+/* Additional styles by Chicco */
 .grid-container {
     display: grid;
     row-gap: 5px;
     column-gap: 0px;
     grid-template-columns: repeat(5, auto);
-    background-color: #A44882;
+    background-color: #333333; /* Darker background color */
     padding: 10px;
     border-radius: 20px;
 }
 
-
 .grid-item {
     display: flex;
-    background-color: white;
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+    background-color: #1a1a1a; /* Dark background color */
     padding: 10px;
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    font-color: #000000;
+    color: #000000; /* Black text color */
     justify-content: center;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;
     border-radius: 5px 5px 5px 5px;
 }
 
-/*Link per G-Maps*/
-.grid-item:gmap {
-}
-
-/* Stile per la prima colonna */
+/* Styles for the first and fifth columns in the grid */
 .grid-item:nth-child(5n-4) {
-  border-radius: 50px 5px 5px 50px;
+    border-radius: 50px 5px 5px 50px;
 }
 
-/* Stile per la quinta colonna */
 .grid-item:nth-child(5n) {
-  border-radius: 5px 50px 50px 5px;
+    border-radius: 5px 50px 50px 5px;
 }
 
-
-/*-----------------footer--------------------*/
+/* Footer styles */
 footer p {
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    color: #777;
+    color: #777777; /* Gray text color */
     text-align: center;
     margin-top: 30px;
 }
@@ -359,8 +320,8 @@ footer p {
 .second-footer {
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    color: #777;
+    color: #777777; /* Gray text color */
     text-align: center;
     margin-top: 30px;
-    background-color: #ffffff;
+    background-color: #ffffff; /* White background color */
 }
