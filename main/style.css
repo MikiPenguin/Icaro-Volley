@@ -1,4 +1,4 @@
-/* General settings */
+/* Impostazioni generali */
 html {
     box-sizing: border-box;
 }
@@ -11,14 +11,14 @@ html {
 
 body {
     font-family: "Recoleta", sans-serif;
-    background-color: #1a1a1a; /* Dark background color */
-    color: #e0e0e0; /* Light text color */
+    background-color: #4C6088;
+    color: #333;
     margin: 0;
 }
 
-/* Header style */
+/* Stile per l'header */
 header {
-    background-color: #333333; /* Darker header background color */
+    background-color: #435578;
     padding: 10px;
     text-align: center;
 }
@@ -26,15 +26,15 @@ header {
 h1 {
     font-family: Recoleta, sans-serif;
     font-size: 60px;
-    color: #ffcc00; /* Accent color */
+    color: #A44882;
     text-align: center;
     margin-top: 0;
 }
 
-/* Navigation menu style */
+/* Stile per il menu di navigazione */
 nav {
     margin-top: 20px;
-    background-color: #333333;
+    background-color: #A44882;
     text-align: center;
     border-radius: 1px;
 }
@@ -57,7 +57,7 @@ nav li {
 nav button {
     font-family: Roboto, sans-serif;
     font-size: 40px;
-    color: #ffffff; /* White text color */
+    color: #fff;
     background-color: transparent;
     border: none;
     outline: none;
@@ -69,12 +69,23 @@ nav button:hover {
     transform: scale(1.1);
 }
 
-/* Additional styling - prova menu comparsa, text, and links styles remain unchanged */
-/* ... */
+/*------------------(prova) stile menù a comparsa------------------*/
 
-/* Main content style */
+/*------------------------------------------------------------*/
+
+
+/* Stile per il testo del titolo e del piè di pagina */
+h1 {
+    font-family: Recoleta, sans-serif;
+    font-size: 120px;
+    color: #A44882;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Stile per il contenuto principale */
 main {
-    color: #ffffff; /* White text color */
+    color: white;
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px;
@@ -84,15 +95,16 @@ main {
 }
 
 main h2 {
-    color: #ff6699; /* Accent color */
+    color: #C44882;
     text-align: left;
     display: block;
 }
 
 main p {
-    color: #ffffff; /* White text color */
+    color: white;
     text-align: left;
     display: block;
+
 }
 
 section {
@@ -100,7 +112,7 @@ section {
     width: auto;
     margin: 10px;
     padding: 10px;
-    background-color: #4d4d4d; /* Slightly lighter background color */
+    background-color: #C8C8C8;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -108,25 +120,23 @@ section {
 section h2 {
     font-family: "Roboto", sans-serif;
     font-size: 28px;
-    color: #ffcc00; /* Accent color */
+    color: #A44882;
     margin-bottom: 20px;
 }
 
 section p {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    color: #ffffff; /* White text color */
     text-align: left;
 }
 
 section a {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    color: #ffffff; /* White text color */
     text-align: left;
 }
 
-/* Styles for divs within the main content */
+/* Stile per i div all'interno del main */
 main div {
     display: block;
     clear: both;
@@ -142,14 +152,14 @@ main div {
 
 div h2 {
     font-size: 24px;
-    color: #ff99cc; /* Light accent color */
+    color: #EE6CBE;
     text-align: left;
     display: block;
 }
 
-/* Styles for paragraphs */
+/* Stili dei paragrafi */
 .p-heading {
-    color: #ff66b2; /* Darker accent color */
+    color: #FB8AD2;
     font-size: 24px;
     font-weight: bold;
     text-align: left;
@@ -159,14 +169,14 @@ div h2 {
 div p {
     font-size: 20px;
     text-align: left;
-    color: #ffffff; /* White text color */
+    color: white;
     display: block;
 }
 
 .p-right {
     font-size: 20px;
     text-align: right;
-    color: #ffffff; /* White text color */
+    color: white;
     display: block;
 }
 
@@ -174,17 +184,15 @@ p {
     font-size: 24px;
     font-weight: bold;
     text-align: left;
-    color: #ffffff; /* White text color */
+    color: white;
     display: block;
 }
 
-/* Introduction section style */
 .intro {
     text-align: center;
     padding: 20px 0;
 }
 
-/* Logo style */
 img.logo {
     display: block;
     margin: 0 auto;
@@ -192,58 +200,74 @@ img.logo {
     height: auto;
 }
 
-/* Button styles */
-.button-big,
-.button-med,
-.button-sm,
-.button-small {
+/* Stile per i bottoni */
+.button-big {
     display: inline-block;
     padding: 10px 20px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    background-color: #A44882;
+    color: white;
     border: none;
     border-radius: 15px;
     cursor: pointer;
 }
 
-.button-big {
-    font-size: 40px;
-    background-color: #ffcc00; /* Accent color */
-    color: #ffffff; /* White text color */
-}
-
 .button-med {
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 30px;
-    background-color: #ffcc00; /* Accent color */
-    color: #ffffff; /* White text color */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #A44882;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .button-sm {
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 24px;
-    background-color: #ffcc00; /* Accent color */
-    color: #ffffff; /* White text color */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #A44882;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .button-small {
+    display: inline-block;
+    padding: 10px 20px;
     font-size: 20px;
-    background-color: #ffcc00; /* Accent color */
-    color: #ffffff; /* White text color */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #A44882;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-/* Button hover effect */
-.button-big:hover,
-.button-med:hover,
-.button-small:hover {
-    background-color: #cc9900; /* Darker accent color */
+.button-big:hover, .button-med:hover, .button-small:hover {
+    background-color: #944176;
     transform: scale(1.2);
 }
 
-/* Social links style */
+/*------------------social links---------------------*/
 .social {
     display: flex;
     justify-content: center;
     align-items: center;
+    /*height: 100vh;*/
 }
 
 .social img {
@@ -274,45 +298,51 @@ img.logo {
     transform: scale(1.2);
 }
 
-/* Additional styles by Chicco */
+/*----------------roba aggiunta da chicco----------------*/
 .grid-container {
     display: grid;
     row-gap: 5px;
     column-gap: 0px;
     grid-template-columns: repeat(5, auto);
-    background-color: #333333; /* Darker background color */
+    background-color: #A44882;
     padding: 10px;
     border-radius: 20px;
 }
 
 .grid-item {
     display: flex;
-    background-color: #1a1a1a; /* Dark background color */
+    background-color: white;
+    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
     padding: 10px;
     font-family: Roboto, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: #000000; /* Black text color */
+    font-color: #000000;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     border-radius: 5px 5px 5px 5px;
 }
 
-/* Styles for the first and fifth columns in the grid */
+/*Link per G-Maps*/
+.grid-item:gmap {
+}
+
+/* Stile per la prima colonna */
 .grid-item:nth-child(5n-4) {
     border-radius: 50px 5px 5px 50px;
 }
 
+/* Stile per la quinta colonna */
 .grid-item:nth-child(5n) {
     border-radius: 5px 50px 50px 5px;
 }
 
-/* Footer styles */
+/*-----------------footer--------------------*/
 footer p {
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    color: #777777; /* Gray text color */
+    color: #777;
     text-align: center;
     margin-top: 30px;
 }
@@ -320,8 +350,8 @@ footer p {
 .second-footer {
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    color: #777777; /* Gray text color */
+    color: #777;
     text-align: center;
     margin-top: 30px;
-    background-color: #ffffff; /* White background color */
+    background-color: #ffffff;
 }
