@@ -206,7 +206,7 @@ img.logo {
     padding: 10px 20px;
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     background-color: #A44882;
     color: white;
@@ -220,7 +220,7 @@ img.logo {
     padding: 10px 20px;
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     background-color: #A44882;
     color: white;
@@ -234,7 +234,7 @@ img.logo {
     padding: 10px 20px;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     background-color: #A44882;
     color: white;
@@ -248,7 +248,7 @@ img.logo {
     padding: 10px 20px;
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     background-color: #A44882;
     color: white;
