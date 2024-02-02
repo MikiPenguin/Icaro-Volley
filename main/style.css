@@ -25,7 +25,7 @@ header {
 
 h1 {
     font-family: Recoleta, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     color: #A44882;
     text-align: center;
     margin-top: 0;
@@ -63,7 +63,7 @@ nav button {
     border: none;
     outline: none;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 nav button:hover {
@@ -204,6 +204,7 @@ img.logo {
 /* Stile per i bottoni */
 .button-big {
     display: inline-block;
+    transition: transform 0.3s ease
     padding: 10px 20px;
     font-size: 40px;
     font-weight: bold;
@@ -218,6 +219,7 @@ img.logo {
 
 .button-med {
     display: inline-block;
+    transition: transform 0.3s ease
     padding: 10px 20px;
     font-size: 30px;
     font-weight: bold;
@@ -232,6 +234,7 @@ img.logo {
 
 .button-sm {
     display: inline-block;
+    transition: transform 0.3s ease
     padding: 10px 20px;
     font-size: 24px;
     font-weight: bold;
@@ -246,6 +249,7 @@ img.logo {
 
 .button-small {
     display: inline-block;
+    transition: transform 0.3s ease
     padding: 10px 20px;
     font-size: 20px;
     font-weight: bold;
