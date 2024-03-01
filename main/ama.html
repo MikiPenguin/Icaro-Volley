@@ -101,19 +101,19 @@
             const formattedTime = time.replace(':', '');
 
             const gridElementHTML = `
-                <div class="grid-item">${team2}</div>
+                <div class="grid-item">{team2}</div>
                 <div class="grid-item"> </div>
-                <div class="grid-item"><strong>${team1}</strong></div>
+                <div class="grid-item"><strong>{team1}</strong></div>
                 <div class="grid-item">
                     <a href="https://calendar.google.com/calendar/render?action=TEMPLATE
-                        &text=${team1}%20-%20${team2}
-                        &dates=${formattedDate}T${formattedTime}00Z/${formattedDate}T${formattedTime}00Z
-                        &details=${details}
-                        &location=${location}">
-                        <b>${date}</b> <br> h.${time}
+                        &text={team1}%20-%20{team2}
+                        &dates={formattedDate}T{formattedTime}00Z01/{formattedDate}T{formattedTime}00Z01
+                        &details={details}
+                        &location={location}">
+                        <b>{date}</b> <br> h.{time}
                     </a>
                 </div>
-                <div class="grid-item">${location}<br><br>${details}</div>
+                <div class="grid-item">{location}<br><br>{details}</div>
             `;
 
             document.getElementById('gridElement').innerHTML = gridElementHTML;
@@ -127,7 +127,7 @@
         const details = "volleyball match - xxx";
         const location = "route x";
 
-        generateGridElement(team1, team2, date, time, details, location);
+        generateGridElement(team1, team1, date, time, details, location);
     </script>
           <!--prova-->
 
