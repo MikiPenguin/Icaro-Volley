@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <!--prova-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Grid Element</title>
+    <!--prova-->
+
+
+
+
+
+
+
+
+
+    
     <title>Icaro Volley - Amatoriale</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -75,6 +91,45 @@
         </div>
         <div class="grid-item">via delle sette chiese 259<br><br>OROVERDE AMATORI GIRONE A</div>
 
+
+          <!--prova-->
+    <div id="gridElement"></div>
+
+    <script>
+        function generateGridElement(team1, team2, date, time, details, location) {
+            const formattedDate = date.replaceAll('/', '');
+            const formattedTime = time.replace(':', '');
+
+            const gridElementHTML = `
+                <div class="grid-item">${team2}</div>
+                <div class="grid-item"> </div>
+                <div class="grid-item"><strong>${team1}</strong></div>
+                <div class="grid-item">
+                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE
+                        &text=${team1}%20-%20${team2}
+                        &dates=${formattedDate}T${formattedTime}00Z/${formattedDate}T${formattedTime}00Z
+                        &details=${details}
+                        &location=${location}">
+                        <b>${date}</b> <br> h.${time}
+                    </a>
+                </div>
+                <div class="grid-item">${location}<br><br>${details}</div>
+            `;
+
+            document.getElementById('gridElement').innerHTML = gridElementHTML;
+        }
+
+        // Example usage:
+        const team1 = "Team A";
+        const team2 = "Team B";
+        const date = "11/03";
+        const time = "20:50";
+        const details = "volleyball match - xxx";
+        const location = "route x";
+
+        generateGridElement(team1, team2, date, time, details, location);
+    </script>
+          <!--prova-->
 
       
       
