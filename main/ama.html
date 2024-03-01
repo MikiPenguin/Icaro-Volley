@@ -1,32 +1,5 @@
 <!DOCTYPE html>
 <html>
-function generateGridElement(team1, team2, date, time, details, location) {
-    // Format the date and time for display
-    const formattedDate = date.replaceAll('/', '');
-    const formattedTime = time.replace(':', '');
-
-    // Construct the HTML for the grid element
-    const gridElementHTML = `
-        <div class="grid-item">${team2}</div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"><strong>${team1}</strong></div>
-        <div class="grid-item">
-            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE
-                &text=${team1}%20-%20${team2}
-                &dates=${formattedDate}T${formattedTime}00Z/${formattedDate}T${formattedTime}00Z
-                &details=${details}
-                &location=${location}">
-                <b>${date}</b> <br> h.${time}
-            </a>
-        </div>
-        <div class="grid-item">${location}<br><br>${details}</div>
-    `;
-
-    return gridElementHTML;
-}
-
-
-  
   <head>
     <title>Icaro Volley - Amatoriale</title>
     <link rel="stylesheet" href="style.css">
@@ -102,16 +75,6 @@ function generateGridElement(team1, team2, date, time, details, location) {
         </div>
         <div class="grid-item">via delle sette chiese 259<br><br>OROVERDE AMATORI GIRONE A</div>
 
-      // Example usage:
-        let team1 = "Team A";
-        let team2 = "Team B";
-        let date = "11/04";
-        let time = "21:00";
-        let details = "volleyball match - xxx";
-        let location = "via andrea argoli";
-        
-        const gridElement = generateGridElement(team1, team2, date, time, details, location);
-        console.log(gridElement);
 
       
       
