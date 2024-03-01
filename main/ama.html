@@ -5,7 +5,18 @@
     <!--prova-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Grid Element</title>
+    <title>Calendar Link Generator</title>
+    <script>
+        function generateCalendarLink(team1, team2, date, time, details, location) {
+            var link = 'https://calendar.google.com/calendar/render?action=TEMPLATE&' +
+                'text=' + encodeURIComponent(team1 + ' - ' + team2) +
+                '&dates=' + encodeURIComponent(date + 'T' + time + 'Z01/' + date + 'T' + time + 'Z') +
+                '&details=' + encodeURIComponent(details) +
+                '&location=' + encodeURIComponent(location);
+
+            return link;
+        }
+    </script>
     <!--prova-->
 
 
@@ -93,42 +104,19 @@
 
 
           <!--prova-->
-    <div id="gridElement"></div>
+<body>
+<script>
+    // Example usage:
+    var link1 = generateCalendarLink('team 1', 'team 2', '20240311', '195000', 'volley match', 'route x');
+    var link2 = generateCalendarLink('team 5', 'team 3', '20240312', '123000', 'football match', 'stadium y');
+    var link3 = generateCalendarLink('team 4', 'team 0', '20240313', '150000', 'basketball game', 'arena z');
 
-    <script>
-        function generateGridElement(team1, team2, date, time, details, location) {
-            const formattedDate = date.replaceAll('/', '');
-            const formattedTime = time.replace(':', '');
+    console.log(link1);
+    console.log(link2);
+    console.log(link3);
 
-            const gridElementHTML = `
-                <div class="grid-item">{team2}</div>
-                <div class="grid-item"> </div>
-                <div class="grid-item"><strong>{team1}</strong></div>
-                <div class="grid-item">
-                    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE
-                        &text={team1}%20-%20{team2}
-                        &dates={formattedDate}T{formattedTime}00Z01/{formattedDate}T{formattedTime}00Z01
-                        &details={details}
-                        &location={location}">
-                        <b>{date}</b> <br> h.{time}
-                    </a>
-                </div>
-                <div class="grid-item">{location}<br><br>{details}</div>
-            `;
-
-            document.getElementById('gridElement').innerHTML = gridElementHTML;
-        }
-
-        // Example usage:
-        const team1 = "Team A";
-        const team2 = "Team B";
-        const date = "11/03";
-        const time = "20:50";
-        const details = "volleyball match - xxx";
-        const location = "route x";
-
-        generateGridElement(team1, team1, date, time, details, location);
-    </script>
+    // You can use these generated links in your HTML as needed.
+</script>
           <!--prova-->
 
       
